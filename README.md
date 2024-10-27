@@ -5,7 +5,7 @@ This is the data processing repository behind [https://why-is-my-train-delayed.n
 ## Directory structure
 
 ```
-- notebooks
+- data-analysis/notebooks
   - delay-events-data-preparation.ipynb: Complete, documented walkthrough of the data preparation process
 - data
   - raw-data
@@ -13,4 +13,5 @@ This is the data processing repository behind [https://why-is-my-train-delayed.n
   - processed-data
     - nyct-delay-events.csv: The final result of the data preparation
     - nyct-delay-events.json: The same output data, but formatted as JSON records
+- requirements.txt: The Python requirements, which can be installed with `pip install -r requirements.txt`
 ```
